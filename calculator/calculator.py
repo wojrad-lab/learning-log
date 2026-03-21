@@ -43,7 +43,7 @@ def main():
 
 		try:
 			a = float(input("Podaj pierwszą liczbę: "))
-			b = gloat(input("Podaj drugą liczbę: "))
+			b = float(input("Podaj drugą liczbę: "))
 
 			if wybor  == "1":
 				wynik = dodaj(a, b)
